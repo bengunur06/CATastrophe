@@ -7,7 +7,7 @@ MiniConda kurulumundan sonra conda alanını oluşturunuz
 #conda create --name test1
 
 Oluşturduğunuz alanı aktive ediniz 
-# conda activate test1 
+#conda activate test1 
 
 Conda üzerinde GYM modülünü yükleyin Eğer Conda ile kuruluma devam etmiyorsanız pip ile yükleyiniz 
 #conda install -c conda-forge gym-all 
