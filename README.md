@@ -19,11 +19,22 @@ süreçlerinin en önemli 3 özelliği; algılama (sensation), eylem (action) ve
 Her bir durum sadece ve sadece bir önceki durumun sonucudur.
 
 
-[Pekiştirmeli Öğrenme Kavramları Etkileşim Diyagramı](/readmeimg/S3-4-1.png)
+![Pekiştirmeli Öğrenme Kavramları Etkileşim Diyagramı](/readmeimg/S3-4-1.png)
 Şekil 3.4.1 Pekiştirmeli Öğrenme Kavramları Etkileşim Diyagramı [8]
 Bu projede iki ayrı Pekiştirmeli Öğrenme algoritmasının uygulaması gerçekleştirilmiştir.
 Bunlar; Yakınsal Poliçe Optimizasyon Algoritmaları (Proximal Policy Optimization
 Algorithms)(PPO) ve Derin Pekiştirmeli Q-Öğrenme(Deep Q-Learning)
+
+# Oyun Tasarımı
+Oyunu tasarlarken ana karakterin olması önündeki engellere atış yapabileceği ve bu
+engellerin karaktere çarpması durumunda ana karakterin oyunu kaybetmesi ile oyunun
+sonlanması planlanmıştır. Engellerin ise rastgele bir şekilde ana karaktere doğru
+ilerleyerek hareket etmeleri hedeflenmiştir. Ana karakterin davranış seçenekleri
+arasında yer değiştirmek ve engellere atış yapmak vardır.
+Oyunun hikayesi ise bir Kedinin önüne çıkan balıklara karşı kendini koruması ve onları
+gerekirse avlaması gerektiği. Projenin en son karar kılınan hikayesi bu şekildedir.
+
+![Catastrophe](/readmeimg/S1-1-1.png "screenshot of the game")
 
 # Oyunu oynamak ve Pekiştirmeli Öğrenme ile eğitmek 
 
