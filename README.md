@@ -1,4 +1,32 @@
 # CATastrophe
+Pekiştirmeli öğrenme ile bir modelin oyunu çözmeye yönelik eğitilmesi hedeflenmektedir. Farklı algoritmaların bu model üzerinde test edilip farklarının ve
+etkenlerinin tartışılması planlanmıştır.Günümüzde pek çok farkli alanda karşımıza çıkan yapay zeka uygulamalarından Pekiştirmeli Öğrenmenin nasıl gerçek hayata uygulanabileceği araştırılmıştır.Proje Python programlama dilinde yazılmış olup Pygame, StableBaselines3 gibi çeşitli
+modüllerden destek alınarak geliştirilmiştir.
+
+# Pekiştirmeli Öğrenme Uygulamaları
+Pekiştirmeli Öğrenmenin temel kavramları şu şekildedir Ajan(agent), bulunduğu
+çevre(enviroment) ile etkileşime geçer. Ajan eylemler(actions) gerçekleştirerek farklı
+durumların(states) oluştuğu senaryolara gelir. Ajanın amacı aldığı ödül miktarını
+arttırmaktır. Ajanın pekiştirmesini sağlayarak en iyi ödülü deneyimleyerek elde
+etmesini sağlarız. Bu strateji poliçe(policy) olarak adlandırılır. Projede Tasarladığımız
+oyundan örnek vererek kavramları eşleştirecek olursak. Ajan, Ana Karakterdir
+Görselde Kedi ile temsil edilmektedir. Çevre ise oyunun içerisinde bulunan ve ajanın
+etkileşime geçtiği her objedir. Eylemleri ise ajanın atış yapması, sağa, sola, çapraz
+ilerleyerek engellerden kaçınmasıdır. Durumlar ise oyunda ajanın kara alması gereken
+her andır.
+Pekiştirmeli Öğrenme, Markov karar süreci model kullanmaktadır. Markov karar
+süreçlerinin en önemli 3 özelliği; algılama (sensation), eylem (action) ve hedef (goal)[7]
+Her bir durum sadece ve sadece bir önceki durumun sonucudur.
+
+
+[Pekiştirmeli Öğrenme Kavramları Etkileşim Diyagramı](/readmeimg/S3-4-1.png)
+Şekil 3.4.1 Pekiştirmeli Öğrenme Kavramları Etkileşim Diyagramı [8]
+Bu projede iki ayrı Pekiştirmeli Öğrenme algoritmasının uygulaması gerçekleştirilmiştir.
+Bunlar; Yakınsal Poliçe Optimizasyon Algoritmaları (Proximal Policy Optimization
+Algorithms)(PPO) ve Derin Pekiştirmeli Q-Öğrenme(Deep Q-Learning)
+
+# Oyunu oynamak ve Pekiştirmeli Öğrenme ile eğitmek 
+
 Kurulum için miniconda kullanılması tavsiye edilir.Ama zorunlu değildir 
 miniconda kurulumu için linkten kullandığınız işletim sistemine uygun sürümü seçiniz ve kurunuz 
 
